@@ -76,7 +76,6 @@ public class AutoCompleteDictionary implements  Dictionary, AutoComplete {
 	@Override
 	public boolean isWord(String s) 
 	{
-	    // TODO: Implement this method
 		String wordLower = s.toLowerCase();
 		char [] wordChar = wordLower.toCharArray();
 		TrieNode curr = root; 
