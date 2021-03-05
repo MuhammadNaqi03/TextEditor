@@ -52,7 +52,7 @@ public class NearbyWords implements SpellingSuggest {
 				sb.setCharAt(index, (char)charCode);
 
 				/* if the item isn't in the list, isn't the original string, and
-				 * is a real word and also wordsOnly is true then, add to the list
+				 * is a real word or a prefix then, add to the list
 				 */
 				if(!currentList.contains(sb.toString()) && 
 						(!wordsOnly||dict.isWord(sb.toString())) &&
@@ -79,7 +79,7 @@ public class NearbyWords implements SpellingSuggest {
 				sb.insert(index, (char)charCode);
 
 				/* if the item isn't in the list, isn't the original string, and
-				 * is a real word and also wordsOnly is true then, add to the list
+				 * is a real word or a prefix then, add to the list
 				 */
 		
 				if(!currentList.contains(sb.toString()) && 
@@ -103,7 +103,7 @@ public class NearbyWords implements SpellingSuggest {
 			sb.deleteCharAt(index);
 
 			/* if the item isn't in the list, isn't the original string, and
-			 * is a real word and also wordsOnly is true then, add to the list
+			 * is a real word or a prefix then, add to the list
 			 */
 			if(!currentList.contains(sb.toString()) && 
 					(!wordsOnly||dict.isWord(sb.toString())) &&
