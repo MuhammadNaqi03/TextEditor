@@ -163,7 +163,7 @@ public class NearbyWords implements SpellingSuggest {
 					visited.add(dNeighbour);
 					queue.add(dNeighbour);
 					
-					//if it's a word then insert it into the retList
+
 					if(dict.isWord(dNeighbour)) {
 						wordsToSuggest.add(dNeighbour);
 						wordCount++;
