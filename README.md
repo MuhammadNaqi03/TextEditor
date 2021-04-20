@@ -5,7 +5,13 @@ A text editor that is capable of the followings -
 
 2. Spelling Suggestion: Shows misspelled words in red and also suggest possible correct words. 
 
+[![Spelling-Suggestions-Autocomplete.png](https://i.postimg.cc/y6pbL7NW/Spelling-Suggestions-Autocomplete.png "Spelling Suggestions and Autocomplete")](https://postimg.cc/0rmnQRDq)
+
 3. Calculating Flesch Score: Flesch score shows how readable a document is. Higher the number of the Flesch index, the easier it to read the document. 
 Scores below 50 represented as difficult whereas scores more than 80 considered as very easy. 
 
+[![Flesch-Score.png](https://i.postimg.cc/7YpQyX0k/Flesch-Score.png)](https://postimg.cc/qzxGss1b "Flesch Score")
+
 4. Generating Markov Text: It generates text using the Markov chains principle. Markov Chains allow the prediction of a future state based on the characteristics of a present state.
+
+[![Markov-Text-Generator.png](https://i.postimg.cc/c4K5jPKh/Markov-Text-Generator.png)](https://postimg.cc/gnWDLSHL "Markov Text")
