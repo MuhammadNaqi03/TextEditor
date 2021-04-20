@@ -5,7 +5,7 @@ A text editor that is capable of the followings -
 
 2. Spelling Suggestion: Shows misspelled words in red and also suggest possible correct words. 
 
-<img src="https://postimg.cc/0rmnQRDq" alt="Spelling Suggestions and Autocomplete" style="height: 200px; width:100%;"/>
+<img src="https://i.postimg.cc/y6pbL7NW/Spelling-Suggestions-Autocomplete.png" alt="Spelling Suggestions and Autocomplete" style="height: 200px; width:100%;"/>
 
 3. Calculating Flesch Score: Flesch score shows how readable a document is. Higher the number of the Flesch index, the easier it to read the document. 
 Scores below 50 represented as difficult whereas scores more than 80 considered as very easy. 
